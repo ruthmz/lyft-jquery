@@ -1,0 +1,49 @@
+body {
+	font-family: 'Raleway', sans-serif !important;
+}
+
+.grad70 {
+	/* background: linear-gradient( rgb(0, 0, 0) 65%, rgb(238, 24, 24)); */
+	background: linear-gradient(to left, #cc00ff 0%, #660066 100%);
+    }
+.container-flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+.container-flex-column2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+.vh100{
+	height: 100vh;
+}
+.street-background{
+	background-image: url('../assets/img/street.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.little{
+	width: 6em;
+	margin: auto;
+}
+.btn-white{
+	border: 1px solid #fff;
+	background-color: transparent;
+	padding: 1.5em 2em 1.5em 2em;
+}
+.btn-style{
+	border-right: 1px solid black;
+}
+.input-box{
+	padding: 2em;
+	border:none;
+}
+
+.border{
+	border:1px solid black;
+}
