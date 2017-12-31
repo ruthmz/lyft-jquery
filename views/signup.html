@@ -13,28 +13,34 @@
 
 <body class="vh100">
   <main>
-    <a href="register.html" type="button" class="btn btn-success ">
+    <a href="access.html" type="button" class="btn">
         <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
     </a>
     <form class="container-flex-column2">
-      <h2 class="text-center">Sign Up</h2>
+      <h1 class="text-center">Sign Up</h1>
       <p class="text-center"> Join now for free ride credit</p>
       <div class="input-group border">
         <div class="input-group-btn">
-          <button type="button" class="btn btn-default dropdown-toggle btn-style" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><img id="changeicon" src="../assets/icons/mexico.ico" alt="mexico"> <span class="caret"></span></button>
+          <button type="button" class="btn btn-default dropdown-toggle btn-style" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../assets/icons/mexico.ico"  alt="mexico" id="changeicon">
+              <span class="caret"></span>
+              <span class="sr-only">Toggle Dropdown</span>
+
+          </button>
           <ul class="dropdown-menu">
-            <li><a href="#"><img src="../assets/icons/venezuela.ico" alt="venezuela" id="venezuela"></a></li>
-            <li><a href="#"><img src="../assets/icons/peru.ico" alt="peru" id="peru"></a></li>
-            <li><a href="#"><img src="../assets/icons/states.ico" alt="states" id="states"></a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+              <li><a href="#"><img src="../assets/icons/mexico.ico"  alt="mexico" id="mexico"></a></li>
+              <li><a href="#"><img src="../assets/icons/venezuela.ico"  alt="venezuela" id="venezuela"></a></li>
+              <li><a href="#"><img src="../assets/icons/peru.ico"  alt="peru" id="peru"></a></a></li>
+              <li class="divider"></li>
+              <li><a href="#"><img src="../assets/icons/states.ico"  alt="states" id="states"></a></li>
           </ul>
-        </div><!-- /btn-group -->
-        <input type="text" class="input-box" aria-label="..." value="52">
+        </div>
+        <span class="phone-code">+ 52</span>
+        <input type="text" class="input-box" id="input-box" aria-label="..." value="">
       </div>
       <br>
       <p class="text-center">We'll send a text to verify your phone</p>
-      <button type="submit" class="btn prueba ">NEXT</button>
+      <button type="submit" class="btn btn-default" id="next" disabled><a href=>NEXT</a></button>
     </form>    
   </main>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
