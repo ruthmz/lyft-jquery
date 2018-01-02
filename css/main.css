@@ -19,6 +19,9 @@ body {
 	justify-content: center;
 	padding: 2em;
 }
+.check{
+  height: 30vh;
+}
 
 .vh100{
 	height: 100vh;
@@ -32,11 +35,19 @@ body {
 	width: 6em;
 	margin: auto;
 }
+
+.check-button{
+	transform: translateY(22em)
+}
+#next{
+	background: rgb(243, 199, 2);
+}
 .btn-white{
 	border: 1px solid #fff;
 	background-color: transparent;
 	padding: 1.5em 2em 1.5em 2em;
 }
+
 .btn-style{
 	border-right: 1px solid black;
 }
@@ -46,7 +57,7 @@ body {
 .input-box{
 	padding: 2em 0 ;
 	border:none;
-	width: 80%;
+	width: 75%;
 	outline: none;
 }
 .border{
