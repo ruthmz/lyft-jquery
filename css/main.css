@@ -24,16 +24,20 @@ body {
 }
 
 .vh100{
-	height: 100vh;
+	height: 100vh; 
 }
 .street-background{
 	background-image: url('../assets/img/street.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+/* access view */
 .little{
 	width: 6em;
-	margin: auto;
+	margin:  auto;
+}
+.two-btn{
+
 }
 
 .check-button{
@@ -45,26 +49,42 @@ body {
 .btn-white{
 	border: 1px solid #fff;
 	background-color: transparent;
-	padding: 1.5em 2em 1.5em 2em;
+	padding: 1.2em 2em 1.2em 2em;
 }
 
 .btn-style{
 	border-right: 1px solid black;
 }
 .phone-code{
+	margin-top: 0.2em;
 	padding: 0 .8em;
 }
 .input-box{
-	padding: 2em 0 ;
+	margin-top: 0.3em;
+	padding: 1.5em 0 ;
 	border:none;
 	width: 75%;
 	outline: none;
 }
+/* sign up */
 .border{
 	border:1px solid black;
 }
 
 
+@media only screen and (min-width: 768px) {
+	.btn-white{
+		background-color: transparent;
+	}
+	.two-btn a{
+	}
+}
+
+@media only screen and (min-width: 992px) {
+}
 
 
+/* Large Devices, Wide Screens */
 
+@media only screen and (min-width: 1200px) {
+}
