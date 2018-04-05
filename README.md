@@ -1,5 +1,12 @@
 #  L Y F T
 
+Lyft es una aplicación mobile web que te permite registrarte para ser miembro del servicio del mismo nombre.
+
+![image](https://user-images.githubusercontent.com/32310744/38343532-21ea3200-384a-11e8-9d8b-838a297a67a7.png)
+
+## Desarrollado para 
+
+[Laboratoria](http://laboratoria.la)
 
 ## Objetivos
 
