@@ -2,7 +2,7 @@
 
 Lyft es una aplicación mobile web que te permite registrarte para ser miembro del servicio del mismo nombre.
 
-![image](https://user-images.githubusercontent.com/32310744/38343532-21ea3200-384a-11e8-9d8b-838a297a67a7.png)
+![Lyft](https://user-images.githubusercontent.com/32310744/38344011-d174c3c8-384c-11e8-8959-0e8eb8411257.png)
 
 ## Desarrollado para 
 
